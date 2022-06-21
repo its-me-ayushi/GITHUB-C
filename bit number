@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+int num ,pos;
+printf("Enter the number and position:\n");
+scanf("%d %d", &num, &pos); 
+num = num|(1<<pos);
+printf("after setting the bit the number is: %d",num);
+}
