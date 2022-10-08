@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int i=10;
+    do
+    {
+        printf("hello incapp\n");
+        printf("i = %d\n",i);
+    }
+    while('\0');
+        return 0;
+    
+}
