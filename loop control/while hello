@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int i=10;
+    while(7)
+    {
+        printf("hello incapp\n");
+        printf("i = %d\n",i);
+        return 0;
+    }
+}
