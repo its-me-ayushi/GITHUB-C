@@ -1,0 +1,22 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+void half_Adder(int A,int B)
+{
+    int sum, carry;
+    sum = A ^ B;
+    carry = A & B;
+    
+    cout<<"sum = "<< sum <<endl;
+        cout<<"carry = "<<carry <<endl;
+
+    
+}
+int main()
+{
+    int A=1;
+    int B=0;
+    half_Adder(A,B);
+    return 0;
+}
