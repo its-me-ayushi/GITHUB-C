@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a;
+    a =100;
+    int b=200;
+    cout<<"a="<<a<<endl<<"b="<<b<<endl;
+    cout<<"hello"<<endl;
+    a=b;
+    return 0;
+}
