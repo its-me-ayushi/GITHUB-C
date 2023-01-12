@@ -1,0 +1,14 @@
+#include<iosteam>
+using namespace std;
+int main()
+{
+
+    
+int a=100,b=200;
+float x =45.89;
+char ch='e';
+cout<<"a="<<a<<endl;
+cout<<"x="<<x<<endl;
+cout<<"ch="<<ch<<endl;
+return 0;
+}
