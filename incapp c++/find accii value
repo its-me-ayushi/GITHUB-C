@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    char ch=90;
+    cout<<"ch="<<ch<<endl;
+    cout<<"ascii value ch="<<(int)ch<<endl;
+    
+    return 0;
+
+}
