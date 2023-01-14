@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+intmain()
+{
+    int x= 20,y;
+    x=x--;
+    cout<<"x="<<x<<endl;
+        cout<<"x="<<x<<endl;
+    cout<<"x="<<x<<endl;
+   // cout<<"y="<<y<<endl;
+    return 0;
+}
