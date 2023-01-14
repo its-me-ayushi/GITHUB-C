@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a=15,b=12,c;
+    cout<<"a="<<(int)a<<endl;
+    cout<<"b="<<b<<endl;
+    //a=a+1;
+   a += 1;
+    cout<<"a="<<a<<endl;
+
+	return 0;
+}
