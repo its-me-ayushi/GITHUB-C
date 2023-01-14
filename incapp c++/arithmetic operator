@@ -1,0 +1,12 @@
+#include<iosteam>
+using namespace std;
+int main()
+{
+     int a=14,b=4,c;
+    c=a/b;
+    cout<<"c="<<c<<endl;
+    c=a%b;
+    cout<<"c="<<c<<endl;
+    return 0;
+    
+}
