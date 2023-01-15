@@ -1,0 +1,15 @@
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int p=16,r=13,t=21,S;
+    S =( p*r*t)/100;
+    cout<<"S="<<S<<endl;
+    return 0;
+    
+    }
