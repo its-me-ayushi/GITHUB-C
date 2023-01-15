@@ -1,0 +1,18 @@
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int math=69,science=78,hindi=60,total,percentage;
+    total = math+science+hindi;
+    cout<<"total="<<total<<endl;
+    percentage = total/100;
+    cout<<"percentage="<<percentage<<endl;
+    return 0;
+}
+    
+    
