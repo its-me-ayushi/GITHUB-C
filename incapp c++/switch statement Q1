@@ -1,0 +1,38 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include<iostream>
+using namespace std;
+int main()
+{
+    int num1,num2, r,A,b;
+    float B;
+    
+    cout<<"enter 1 to check area of rectangle"<<endl;
+    
+    cout<<"enter 2 to check area of circle"<<endl;
+    cin>>b;
+    switch(b)
+    {
+        case 1: cout<<"enter two number for area of rectangle"<<endl;
+        cin>>num1>>num2;
+        A = num1*num2;
+        cout<<"area="<<A<<endl;
+        break;
+         case 2: cout<<"enter number for area of circle"<<endl;
+         cin>>r;
+        B = 3.14*r*r;
+         cout<<"area="<<B<<endl;
+       break;
+       default: cout<<"invalid input"<<endl;
+    }
+    cout<<"end of the program"<<endl;
+
+    
+}
+
