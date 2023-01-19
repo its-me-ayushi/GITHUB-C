@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int sp,cp;
+    cout<<"enter sp "<<endl;
+    cin>>sp;
+    cout<<"enter cp "<<endl;
+    cin>>cp;
+    if(sp>cp)
+    cout<<"pro="<<sp-cp<<endl;
+    else
+    cout<<"loss="<<cp-sp<<endl;
+    return 0;
+}
