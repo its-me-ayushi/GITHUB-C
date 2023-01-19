@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int math,phy,chem;
+    cout<<"enter mark math "<<endl;
+    cout<<"enter mark phy "<<endl; 
+    cout<<"enter mark chem "<<endl; 
+    cin>>math>>phy>>chem;
+    
+    if(math+phy+chem>=200)
+    {
+        cout<<"admission are aproved "<<endl;
+    }
+    else
+    {
+                cout<<"admission are not aproved "<<endl;
+
+    }
+    return 0;
+}
