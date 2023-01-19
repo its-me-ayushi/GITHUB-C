@@ -1,0 +1,66 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n1,n2,result,b;
+    
+    cout<<"enter 1 for addition"<<endl;
+    
+    cout<<"enter 2 for substraction"<<endl;
+    cout<<"enter 3 for multiplication"<<endl;
+    cout<<"enter 4 for division "<<endl;
+    cout<<"enter 5 for square"<<endl;
+    cout<<"enter 6 for cube"<<endl;
+
+    cin>>b;
+    switch(b)
+    {
+        case 1: cout<<"enter the number for addition "<<endl;
+        cin>>n1>>n2;
+        result = n1+ n2;
+            cout<<" addditon="<<result<<endl;
+            
+        
+        break;
+        
+         case 2: cout<<"enter the number for substration"<<endl;
+         cin>>n1>>n2;
+         result = n1-n2;
+         cout<<"substraction="<<result<<endl;
+         break;
+         
+         case 3: cout<<"enter the number for multiplication"<<endl;
+         cin>>n1>>n2;
+         result = n1*n2;
+         cout<<"multiplication="<<result<<endl;
+          break;
+                  case 4: cout<<"enter the number for division"<<endl;
+         cin>>n1>>n2;
+         result = n1/n2;
+         cout<<"division="<<result<<endl;
+         break;
+        case 5: cout<<"enter the number for square"<<endl;
+         cin>>n1;
+         result = n1*n1;
+         cout<<"square ="<<result<<endl;
+           break;
+                case 6: cout<<"enter the number for cube"<<endl;
+         cin>>n1;
+         result = n1*n1*n1;
+         cout<<"cube ="<<result<<endl;
+
+       default: cout<<"invalid input"<<endl;
+    }
+    cout<<"end of the program"<<endl;
+
+    
+}
+
