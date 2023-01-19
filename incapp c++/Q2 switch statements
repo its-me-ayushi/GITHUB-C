@@ -1,0 +1,41 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n ,num,b;
+    
+    cout<<"enter 1 to check the number is +ve or -ve"<<endl;
+    
+    cout<<"enter 2 to check the number is odd or even"<<endl;
+    cin>>b;
+    switch(b)
+    {
+        case 1: cout<<"enter the number is +ve or -ve "<<endl;
+        cin>>n;
+        if(n>=0)
+            cout<<" the number is +ve "<<n<<endl;
+            
+            
+            else
+            
+            cout<<"the number is -ve "<<n<<endl;
+            
+        
+        break;
+        
+         case 2: cout<<"enter the number is odd or even"<<endl;
+         cin>>num;
+         if(num%2==0)
+             cout<<"the number is even"<<n<<endl;
+             else
+             cout<<"the number is odd"<<n<<endl;
+         
+         
+        
+       break;
+       default: cout<<"invalid input"<<endl;
+    }
+    cout<<"end of the program"<<endl;
+
+    
+}
