@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a=10;
+cout<<"start"<<endl;
+do
+{
+    cout<<"hello a="<<a<<endl;
+    a++;
+    
+}
+while(a!=10);
+cout<<"end"<<endl;
+return 0;
+}
