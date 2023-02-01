@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+
+void show(int n)
+{
+    cout<<"show function n="<<n<<endl;
+    n--;
+    if(n!=0)
+    {
+        show(n);
+        
+    }
+    //cout<<"after show function"<<endl;
+    
+}
+ int main()
+{
+    cout<<"main start"<<endl;
+    int n;
+    cout<<"enter a number"<<endl;
+    cin>>n;
+    show(n);
+    cout<<"end the program"<<endl;
+    
+}
