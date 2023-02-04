@@ -1,0 +1,26 @@
+#include<iosteram>
+using namespace std;
+int main()
+{
+  int a[10];
+  int i,j,s;
+  cout<<"Enter Size of array: "<<endl;
+  cin>>s;
+  cout<<"Enter  "<<s<<" elements in array: "<<endl;
+  for(i=0;i<s;i++)
+  {
+   cin>>a[i];
+  }
+  cout<<"Dublicate Values are: "<<endl;
+  for(i=0; i<s; i++)
+   {
+    for(j=i+1;j<s;j++)
+    {
+    if(a[i]==a[j])
+    {
+    cout<<"\n"<<a[i];
+    }
+   }
+   }
+  return 0;
+ }
