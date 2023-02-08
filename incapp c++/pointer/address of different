@@ -1,0 +1,19 @@
+{
+int a=10,*b,c=100,d=60;
+cout<<"value of a:"<<a<<endl;
+cout<<"address of a:"<<&a<<endl;
+cout<<"value of a:"<<*&a<<endl;
+b=&a;
+cout<<"value of a:"<<*b<<endl;//*b==*&a
+cout<<"address of a:"<<b<<endl;//b==&a
+cout<<"value of b:"<<&b<<endl;
+b=&c;
+cout<<"value of c:"<<*b<<endl;
+cout<<"address of c:"<<c<<endl;
+cout<<"value of c:"<<&c<<endl;
+b=&d;
+cout<<"value of d:"<<*b<<endl;
+cout<<"address of d:"<<b<<endl;
+cout<<"value of d:"<<*&d<<endl;
+
+}
