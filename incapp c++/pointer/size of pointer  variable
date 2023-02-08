@@ -1,0 +1,13 @@
+    {
+    int a=10,*b;
+    char *p;
+    float *y;
+    b=&a;
+    cout<<"size of a="<<sizeof(a)<<endl;
+        cout<<"size of b="<<sizeof(b)<<endl;
+    cout<<"size of p="<<sizeof(p)<<endl;
+    cout<<"size of y="<<sizeof(y)<<endl;
+
+
+}
+
