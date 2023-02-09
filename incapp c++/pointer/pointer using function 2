@@ -1,0 +1,20 @@
+#include <iostream>
+
+using namespace std;
+
+
+    void show(int *y)
+    {
+        cout<<"show y="<<y<<endl;
+        cout<<"x="<<*y<<" address of y:"<<&y<<endl;
+        *y=20;
+        cout<<"show y="<<*y<<endl;
+    }
+    
+        int main()
+        {
+            int x=10;
+           cout<<"x="<<x<<" address of x:"<<&x<<endl;
+           show(&x);
+           cout<<"x="<<x<<endl;
+        }
