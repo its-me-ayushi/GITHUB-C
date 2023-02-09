@@ -1,0 +1,29 @@
+#include <iostream>
+
+using namespace std;
+
+void result(int b[5],int *t,float *p)
+{
+    cout<<"five subject marks:"<<endl;
+for(int i=0;i<5;i++)
+{
+    cout<<"subject"<<i+1<<" : "<<b[i]<<endl;
+    *t=*t+b[i];
+}
+    *p=*t/5.0;
+}
+    int main()
+    {
+        int m[5],total;
+        float per;
+        cout<<"enter five subject"<<endl;
+        for(int i=0;i<5;i++)
+        {
+            cout<<"subject"<<i+1<<" ";
+            cin>>m[i];
+        }
+        result(m,&total,&per);
+        cout<<"total marks"<<total<<endl;
+        cout<<"percentage"<<per<<endl;
+    }
+    
