@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+
+    void show(int x)
+    {
+        cout<<"show x="<<x<<endl;
+        x=20;
+        cout<<"show x="<<x<<endl;
+    }
+    
+        int main()
+        {
+            int x=10;
+           cout<<"x="<<x<<endl;
+           show(x);
+           cout<<"x="<<x<<endl;
+        }
