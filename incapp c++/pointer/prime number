@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int num,d=0,*e;
+    e=&d;
+    cout<<"enter num:"<<endl;
+    cin>>num;
+    for(int i=2;i<num;i++)
+    {
+        if(num%i==0)
+        {
+            *++e;
+            break;
+            
+        }
+    
+    }
+
+    cout<<"e="<<*e<<endl;
+    if(*e==0)
+    {
+        cout<<"prime number:"<<endl;
+    }
+    else
+    {
+        cout<<"not prime number:"<<endl;
+        
+    }
+    }
+    
