@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    char*p[20],name[20];
+    p[0]=&name[0];
+    cout<<"enter name:"<<endl;
+    cin>>*p;
+    cout<<"name:"<<*p<<endl;
+}
