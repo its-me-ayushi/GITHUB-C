@@ -1,0 +1,40 @@
+#include <iostream>
+
+using namespace std;
+class circle
+{
+public:
+int radius;
+float circum,area;
+void inputdetails()
+{
+    cout<<"enter the radius"<<endl;
+    cin>>radius;
+    cout<<"enter the circum"<<endl;
+           cin>>circum;
+
+    circum=2*3.14*radius;
+        
+
+    cout<<"enter the area"<<endl;
+    cin>>area;
+    area=3.14*(radius*radius);
+    
+}
+void print()
+{
+cout<<"circle radius:"<<radius<<endl;
+cout<<"circle circum:"<<circum<<endl;
+cout<<"circle area:"<<area<<endl;
+
+}
+};
+int main()
+{
+    circle c;
+    c.radius;
+    c.circum;
+    c.area;
+    c.inputdetails();
+    c.print();
+}
