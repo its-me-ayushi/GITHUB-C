@@ -1,0 +1,39 @@
+
+using namespace std;
+class employee
+{
+    
+    public:
+    int eid,salary;
+    char name[20];
+    void inputdetails()
+    {
+        cout<<" enter employee id"<<endl;
+        cin>>eid;
+        cout<<" enter employee salary"<<endl;
+        cin>>salary;
+        cout<<" enter employee name"<<endl;
+          cin>>name;
+    }
+    void print()
+    {
+        cout<<"employee id:"<<eid<<endl;
+        cout<<"employee salary:"<<salary<<endl;
+        cout<<"employee name:"<<name<<endl;
+
+    }
+
+void show()
+{
+    cout<<"enter show"<<endl;
+}   
+};
+int main()
+{
+    employee x;
+    x.eid;
+    x.salary;
+    x.name;
+    x.inputdetails();
+    x.print();
+}
