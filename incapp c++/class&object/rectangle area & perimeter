@@ -1,0 +1,44 @@
+#include <iostream>
+
+using namespace std;
+class rectangle
+{
+public:
+int length,breadth,perimeter,area;
+
+void inputdetails()
+{
+    cout<<"enter the length"<<endl;
+    cin>>length;
+    cout<<"enter the breadth"<<endl;
+    cin>>breadth;
+    cout<<"enter the perimeter"<<endl;
+           cin>>perimeter;
+
+    perimeter=2*(length+breadth);
+        
+
+    cout<<"enter the area"<<endl;
+    cin>>area;
+    area=length*breadth;
+    
+}
+void print()
+{
+cout<<"rec length:"<<length<<endl;
+cout<<"rec breadth:"<<breadth<<endl;
+cout<<"rec perimeter:"<<perimeter<<endl;
+cout<<"rec area:"<<area<<endl;
+
+}
+};
+int main()
+{
+    rectangle r;
+    r.length;
+    r.breadth;
+    r.perimeter;
+    r.area;
+    r.inputdetails();
+    r.print();
+}
