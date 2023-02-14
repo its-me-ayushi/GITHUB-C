@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+ class Demo
+ {
+    int x=10;
+    public:
+    Demo()
+    {
+        cout<<"constructor:"<<endl;
+        
+    }
+    void show(){
+        cout<<"show function:x="<<x<<endl;
+        
+    }
+    void change()
+    {
+            x=100;
+        cout<<"change function:x="<<x<<endl;
+        
+    }
+    
+ };
+ int main()
+ {
+     Demo d1,d2,d3;
+     d1.show();
+     d2.change();
+     d2.show();
+     d3.change();
+     d3.show();
+ }
