@@ -1,0 +1,58 @@
+#include<iostream>
+using namespace std;
+ class Demo
+ {
+    int x;
+    float y;
+    public:
+    Demo(int r,float p)
+    {
+      x=r;
+      y=p;
+              cout<<" two para constructor."<<endl;
+
+    }
+    Demo (char r)
+    {
+        x=r;
+        cout<<" one char para. constructor.r="<<r<<endl;
+
+    }
+    Demo (int r)
+    {
+        x=r;
+                         cout<<" one para constructor."<<endl;
+
+    }
+    Demo()
+    {
+                      cout<<" non para constructor"<<endl;
+
+    }
+    void show(){
+        cout<<"show function:x="<<x<<endl;
+                cout<<"show function:y="<<y<<endl;
+
+    }
+    void change()
+    {
+            x=100;
+            y=200;
+        cout<<"change function:x="<<x<<endl;
+        cout<<"show function:y="<<y<<endl;
+
+    }
+    ~Demo(){
+        cout<<"destructor."<<endl;
+    }
+    
+ };
+ int main()
+ {
+     Demo d1,d2(3,7.8),d3(6);
+     d1.show();
+
+     Demo d4('A');
+     d2.show();
+     
+ }
