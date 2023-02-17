@@ -1,0 +1,77 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <iostream>
+
+using namespace std;
+ class A 
+ {
+     private:int x=100;
+     protected :int y=200;
+     public:
+     int a=10;
+     A()
+     {
+        cout <<"class A constructor."<<endl;
+         
+     }
+     void showA()
+     {
+         cout<<"class A show function.x="<<x<<endl;
+          cout<<"class A show function.y="<<y<<endl;
+         cout<<"class A show function.a="<<a<<endl;
+         
+
+     }
+ };
+ class B:public A
+ {
+     public:
+     int b=20;
+     B()
+     {
+         cout<<"class B constructor."<<endl;
+         
+     }
+ void showB()
+ {
+              cout<<"class A member y="<<y<<endl;
+         cout<<"class B show function.b="<<b<<endl;
+         cout<<"class A memder a="<<a<<endl;
+         
+
+     
+ }
+ 
+ };
+ class C: public A
+ {
+     public:
+     int c=30;
+     C()
+     {
+      cout<<"class C constructor."<<endl;
+                  
+}
+    void showC()
+    {
+          cout<<"class A member y="<<y<<endl;
+         cout<<"class A memder a="<<a<<endl;
+        cout<<" class C show Function.c="<<c<<endl;
+    }
+    
+    };
+    int main()
+    {
+       // C b1;
+       // b1.showC();
+        B a1;
+        a1.showB();
+    }
+         
+     
